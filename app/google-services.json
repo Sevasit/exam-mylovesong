@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "983606257702",
+    "firebase_url": "https://projectsecc-c5082-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "projectsecc-c5082",
+    "storage_bucket": "projectsecc-c5082.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983606257702:android:110053dc944eccd4471ee7",
+        "android_client_info": {
+          "package_name": "com.example.bookdbsevasit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhveWChlC7jT8AOm3I9Z6xOY9nVXlpeL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983606257702:android:eaa4af0b6012667d471ee7",
+        "android_client_info": {
+          "package_name": "com.example.mylovesongadminsevasit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhveWChlC7jT8AOm3I9Z6xOY9nVXlpeL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

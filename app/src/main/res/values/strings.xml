@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyLoveSongAdminSevasit</string>
+
+    <string-array name="types">
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>K-Pop</item>
+        <item>Dream Pop</item>
+        <item>Rap</item>
+        <item>Alternative Pop</item>
+        <item>Electronic Pop</item>
+    </string-array>
+</resources>
