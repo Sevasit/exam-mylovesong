@@ -76,6 +76,7 @@ public class ArtistList extends ArrayAdapter<Artist> {
                                                 deleteArtistConfirmation(artistshow.getArtistId());
                                                 break;
                                             case 2:
+                                                Addtrack(artistshow.getArtistId(),artistshow.getName());
                                                 break;
                                         }
                                     }
@@ -89,6 +90,15 @@ public class ArtistList extends ArrayAdapter<Artist> {
 
         return listViewItem;
     }
+
+    public void Addtrack(String id,String name)
+    {
+        Intent openTrack= new Intent (context,TrackActivity.class);
+        openTrack.putExtra("artId",id);
+        openTrack.putExtra("artName",name);
+        context.startActivity(openTrack);
+    }
+
 
     private boolean deleteArtist(String id) {
         DatabaseReference dR = FirebaseDatabase.getInstance().getReference("artists").child(id);

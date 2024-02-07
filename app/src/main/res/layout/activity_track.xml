@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="เพิ่มเพลง"
+
+
+            android:textColor="#009688"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/txtArtistname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+
+            android:layout_marginLeft="30dp"
+
+
+            android:layout_marginRight="30dp"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnChooseSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:onClick="choose"
+                android:text="เลือกเพลง" />
+
+
+            <EditText
+                android:id="@+id/edtTrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter track name"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5" />
+
+
+        <TextView
+            android:id="@+id/showRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:onClick="addtrack"
+            android:text="เพิ่มเพลง"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:onClick="viewtrack"
+            android:text="ดูและแสดงรายชื่อเพลง"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
